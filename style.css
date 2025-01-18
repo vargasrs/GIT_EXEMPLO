@@ -1,0 +1,63 @@
+/* AULA 0304 ORGANIZANDO O ESTILO NUM ARQUIVO EXTERNO .CSS */
+body{
+  background:#CCCCCC
+}
+
+.cla_titulocentralizado{
+  text-align:center
+}
+
+#id_banner{
+  width:100%;
+}
+
+.cla_principal{
+  background:#CCCCCC;
+  /* AULA 0506 adiciona espacamento interno para todos os lados */
+  padding:30px;
+}
+
+.cla_tituloprincipal{
+  padding-left:20px;
+}
+
+/* AULA 0402 Identificador de elemento. Identificador sempre Inicia com "#" 
+   Para identificador adotei o padrao id_xxxx   */
+#id_missao{
+  font-size: 20px;
+}
+
+p{
+  text-align:center;
+}
+
+/* AULA 0306 VAI APLICAR ONDE CONTER O STRONG DENTRO DO EM */
+em strong{
+  color:red;
+}
+
+/* AULA 0502 Criando uma classe. Classe sempre Inicia com um "." 
+   Para classe adotei o padrao cla_xxxx */
+.cla_itens{
+  font-style:italic;
+}
+
+/* AULA 0504 criou classe para marcar os itens */
+.cla_beneficio{
+  background: #FFFFFF;
+  /* AULA 0506 adiciona espacamento interno para todos os lados */
+  padding:20px;
+}
+
+/* AULA 0506 vai dizer que o marcador ul sera inline e block ao mesmo tempo */
+ul{
+  display:inline-block;
+  vertical-align:top;
+  width:20%;
+  margin-right:15%;
+}
+
+/* AULA 0506 vai dizer que a imagem tem 50% da largura */
+.cla_imagembeneficios{
+  width:50%;
+}
